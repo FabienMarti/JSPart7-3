@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <title>part 7 ex 3</title>
+    </head>
+
+    <body>
+        <input type="number" name="number1" id="number1"><br>
+        <input type="number" name="number2" id="number2"><br>
+        <button onclick='multi(number1, number2)'>Multiplier</button>
+
+        <script>
+            var multi = (number1, number2) => {
+                number1 = document.getElementById('number1').value;
+                number2 = document.getElementById('number2').value;
+                alert(number1 * number2);
+            }
+        </script>
+    </body>
+
+</html>
